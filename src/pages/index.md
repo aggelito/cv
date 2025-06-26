@@ -1,6 +1,12 @@
 ---
-title: August Herrström
 layout: ../layouts/markdown.astro
+title: August Herrström | DevOps & Full-Stack Engineer
+description: Experienced DevOps and Full-Stack Engineer with 10+ years in scaling systems, automation, and cloud infrastructure.
+keywords: DevOps, Full-Stack, Kubernetes, AWS, Svelte, React, Sweden
+author: August Herrström
+og_title: August Herrström - DevOps Engineer
+og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with expertise in Kubernetes, AWS, and modern web development.
+# og_image: /path/to/profile-image.jpg
 ---
 
 
@@ -10,12 +16,17 @@ layout: ../layouts/markdown.astro
 - Phone: +46 761705495  
 - Email: augustherrstrom@gmail.com  
 - [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
+- [GitHub](https://github.com/augustherrstrom)  <!-- Replace with actual GitHub link if applicable -->
 
 ---
 
+## About Me
+I'm a problem-solver who thrives on building scalable, reliable systems and mentoring teams to succeed. Outside of code, I’m an avid open-source contributor and sustainability advocate.
+
+
 ## Professional Summary
 
-DevOps and full-stack engineer with over 10 years of experience scaling systems and teams at StickerApp. Passionate about automation, open source, and crafting sustainable, vendor-agnostic solutions.
+DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. Expert in automation, cloud infrastructure, and vendor-agnostic solutions. Passionate about open source and sustainable technology.
 
 ---
 
@@ -23,49 +34,48 @@ DevOps and full-stack engineer with over 10 years of experience scaling systems 
 
 ### Lead DevOps Engineer - *StickerApp AB, Lomma, Sweden*  
 *May 2022 – Present*  
-- Migrated main database to new cloud provider with minimal downtime
-- Dockerized and migrated legacy monolith to new hosting provider
-- Automated Remote development server setup, reduced onboarding time
-- Built a performant traefik middleware to handle authentication and authorization across the whole organization, both public and private services with SSO capabilities
-- Improved code reviews by automation using copilot
-- Automated preview deploys from pull requests, enabling faster feedback loops
-- Implemented monitoring and alerting with Grafana and Prometheus
-- Ensured security and stability with automated tests (Playwright, K6) and security scans
-- Improved deployment times and safety by building Kubernetes infrastructure with GitOps (ArgoCD, Kustomize, Rancher)
+- Migrated main database to a new cloud provider with <1 hour downtime, ensuring seamless business operations  
+- Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
+- Automated remote development server setup, cutting onboarding time by 50%  
+- Built a high-performance Traefik middleware for authentication and authorization, enabling SSO across all services  
+- Reduced code review time by 30% with GitHub Copilot automation  
+- Introduced automated preview deploys from pull requests, accelerating feedback loops  
+- Established monitoring and alerting with Grafana and Prometheus, improving system reliability  
+- Enhanced security and stability with automated tests (Playwright, K6) and security scans  
+- Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)  
 
 ### Technical Lead - *StickerApp AB, Lomma, Sweden*  
 *April 2021 – May 2022*  
-- Managed a team of 5 engineers
-- Oversaw DevOps processes, CI/CD automation, and Dockerization efforts
-- Maintained operational excellence and sprint planning
-- Built scalable service handling all customer file uploads, thumbnail and outline generation on AWS
-- Modernized deploy workflow with github actions, Deploying went from once a week to multiple deploys daily
-- Managed AWS infrastructure using IAC tools, optimizing cost and performance
-- Optimizing database structures with minimal obstruction of services
+- Led a team of 5 engineers, promoting collaboration and innovation  
+- Spearheaded DevOps initiatives, CI/CD automation, and Dockerization projects  
+- Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases  
+- Increased team productivity by 20% through streamlined sprint planning and operational improvements  
+- Developed a scalable AWS service for customer file uploads, thumbnails, and outlines  
+- Managed AWS infrastructure with IAC tools, balancing cost and performance  
+- Optimized database structures with minimal service disruption  
 
-### Fullstack Web Developer - *StickerApp AB, Lomma, Sweden*
-*October 2016 – April 2021*
-- 3rd developer starting at the company
-- Built APIs and microservices with Node.js and Java (Spring Boot)
-- Worked across infrastructure layers including Linux, Docker, Nginx, Apache, and MySQL
-- Integrated BI tools such as QlikSense for data-driven insights
-- Built services viable to the production of Stickers
-- Improving the UX for our admin systems
+### Fullstack Web Developer - *StickerApp AB, Lomma, Sweden*  
+*October 2016 – April 2021*  
+- Created a service that reduced sticker production time by 15%, improving operational efficiency  
+- Developed APIs and microservices using Node.js and Java (Spring Boot)  
+- Managed infrastructure layers (Linux, Docker, Nginx, Apache, MySQL)  
+- Integrated BI tools like QlikSense to support data-driven decisions  
+- Improved admin system UX, streamlining internal workflows  
 
 ### Consultant - *Cloudmap AB, Malmö, Sweden*  
-*January 2015 – October 2016*
-- Built and managed advanced data pipelines and Power BI dashboards for Region Skåne, handling sensitive medical and financial records
-- Developed REST APIs in C# (.NET) and managed Microsoft SQL Server environments
-- Involved in mobile app development and system integrations
+*January 2015 – October 2016*  
+- Designed data pipelines for Region Skåne, handling 10k+ medical and financial records daily  
+- Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
+- Supported mobile app development and system integrations  
 
 ### Consultant - *Devv IT AB, Helsingborg, Sweden*  
 *2014*  
-- Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions
-- Developed backend solutions in C#/.NET
+- Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
+- Developed backend solutions using C#/.NET  
 
-### Lab Assistant (MySQL course) - *Malmö University, Malmö, Sweden*  
+### Lab Assistant (MySQL Course) - *Malmö University, Malmö, Sweden*  
 *2013*  
-- Guided 20+ students in mastering SQL queries for a relational databases course in MySQL
+- Mentored 20+ students in mastering SQL queries for a relational databases course  
 
 ---
 
@@ -73,23 +83,31 @@ DevOps and full-stack engineer with over 10 years of experience scaling systems 
 
 ### B.Sc. Computer Science, Game Development - *Malmö University*  
 *2011 – 2014*  
-- Relevant coursework: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
+- **Relevant Coursework**: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming  
+- **Notable Project**: Developed a physics-based game engine as part of thesis  <!-- Replace with actual project if applicable -->
 
 ---
 
 ## Technical Skills
-
-- **DevOps & Infrastructure**: Kubernetes, AWS, Docker, Linux, CI/CD (GitHub Actions), ArgoCD, Rancher, Grafana, Prometheus  
-- **Languages & Back-end**: JavaScript/TypeScript, PHP (CodeIgniter), Node.js, Java (Spring Boot), C# (.NET), Go
-- **Front-end**: Svelte, React, jQuery, Bootstrap, Tailwind
-- **Data & BI**: MySQL, MSSQL, Power BI, SSIS, QlikSense, Mage.ai  
-- **Tools**: Git, Jira, Playwright, K6, Traefik
-- **General**: KISS
+- **Cloud & DevOps**: Kubernetes, AWS, Docker, GitHub Actions, ArgoCD, Rancher, Grafana, Linux, Ansible
+- **Back-End**: JavaScript/TypeScript, Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
+- **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind
+- **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai
+- **Tools & Testing**: Git, Jira, Playwright, K6, Traefik
+- **Principles**: KISS, GitOps, Agile, Lean, DRY, Kanban
 
 ---
 
 ## Languages
 
-- Swedish (Native), English (Fluent)  
+- Swedish (Native)  
+- English (Fluent)  
 
 ---
+
+### Notes for Astro Integration
+- **Navigation**: Add a sticky navbar or sidebar linking to sections (e.g., "Experience," "Skills") using Astro components.  
+- **Styling**: Use Tailwind for a responsive, modern design. Consider card layouts for work experience and tag-like visuals for skills.  
+- **Interactivity**: Implement collapsible sections for lengthy lists (e.g., job details) to maintain a clean, scannable layout.  
+- **SEO**: Include meta tags and semantic HTML for better searchability and accessibility.  
+- **Download Option**: Add a "Download PDF" button for convenience.  

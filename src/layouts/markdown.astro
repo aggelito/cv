@@ -48,7 +48,7 @@ const { frontmatter } = Astro.props;
     <div class="text-right p-4">
       <label class="swap swap-rotate">
         <!-- this hidden checkbox controls the state -->
-        <input id="themeToggle" type="checkbox" />
+        <input id="themeToggle" type="checkbox" aria-label="Toogle theme" />
 
         <!-- sun icon -->
         <svg
@@ -75,9 +75,9 @@ const { frontmatter } = Astro.props;
         </svg>
       </label>
     </div>
-    <article class="mx-auto px-4 pb-16 pt-2 prose lg:prose-lg xl:prose-xl">
+    <main class="mx-auto px-4 pb-16 pt-2 prose lg:prose-lg xl:prose-xl">
       <slot />
-    </article>
+    </main>
     <script src="../assets/theme-toggle.js"></script>
   </body>
 </html>

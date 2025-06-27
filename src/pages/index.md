@@ -30,9 +30,8 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ## Work experience
 
-### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
-
 #### May 2022 - Present
+### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
 
 - Migrated main database to a new cloud provider with <1 hour downtime, ensuring seamless business operations  
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
@@ -44,9 +43,9 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - Enhanced security and stability with automated tests (Playwright, K6) and security scans  
 - Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)  
 
-### Technical Lead @ StickerApp AB, Lomma, Sweden
 
 #### April 2021 - May 2022
+### Technical Lead @ StickerApp AB, Lomma, Sweden
 
 - Led a team of 5 engineers, promoting collaboration and innovation  
 - Spearheaded DevOps initiatives, CI/CD automation, and Dockerization projects  
@@ -56,9 +55,8 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - Managed AWS infrastructure with IaC tools, balancing cost and performance  
 - Optimized database structures with minimal service disruption  
 
-### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
-
 #### October 2016 - April 2021
+### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
 
 - Created a service that reduced sticker production time by 15%, improving operational efficiency  
 - Developed APIs and microservices using Node.js and Java (Spring Boot)  
@@ -66,24 +64,21 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - Integrated BI tools like QlikSense to support data-driven decisions  
 - Improved admin system UX, streamlining internal workflows  
 
-### Consultant @ Cloudmap AB, Malmö, Sweden
-
 #### January 2015 - October 2016
+### Consultant @ Cloudmap AB, Malmö, Sweden
 
 - Designed data pipelines for Region Skåne, handling 10k+ medical and financial records daily  
 - Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
 - Supported mobile app development and system integrations  
 
-### Consultant @ Devv IT AB, Helsingborg, Sweden
-
 #### 2014
+### Consultant @ Devv IT AB, Helsingborg, Sweden
 
 - Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
 - Developed backend solutions using C#/.NET  
 
-### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
-
 #### 2013
+### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 
 - Mentored 20+ students in mastering SQL queries for a relational databases course  
 
@@ -91,9 +86,8 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ## Education
 
-### B.Sc. Computer Science, Game Development @ Malmö University
-
 #### 2011 - 2014
+### B.Sc. Computer Science, Game Development @ Malmö University
 
 - **Relevant Coursework**: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming  
 - **Notable Project**: Developed a physics-based game engine as part of thesis  <!-- Replace with actual project if applicable -->

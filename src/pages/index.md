@@ -9,20 +9,20 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 # og_image: /path/to/profile-image.jpg
 ---
 
-
 # August Herrström
 
-**Contact Information**  
+## Contact Information
+
 - Phone: +46 761705495  
-- Email: augustherrstrom@gmail.com  
+- Email: <augustherrstrom@gmail.com>  
 - [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
 - [GitHub](https://github.com/augustherrstrom)  <!-- Replace with actual GitHub link if applicable -->
 
 ---
 
 ## About Me
-I'm a problem-solver who thrives on building scalable, reliable systems and mentoring teams to succeed. Outside of code, I’m an avid open-source contributor and sustainability advocate.
 
+I'm a problem-solver who thrives on building scalable, reliable systems and mentoring teams to succeed. Outside of code, I’m an avid open-source contributor and sustainability advocate.
 
 ## Professional Summary
 
@@ -32,8 +32,10 @@ DevOps and full-stack engineer with over 10 years of experience, specializing in
 
 ## Work Experience
 
-### Lead DevOps Engineer - *StickerApp AB, Lomma, Sweden*  
-*May 2022 – Present*  
+### Lead DevOps Engineer - StickerApp AB, Lomma, Sweden
+
+May 2022 - Present
+
 - Migrated main database to a new cloud provider with <1 hour downtime, ensuring seamless business operations  
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
 - Automated remote development server setup, cutting onboarding time by 50%  
@@ -44,8 +46,10 @@ DevOps and full-stack engineer with over 10 years of experience, specializing in
 - Enhanced security and stability with automated tests (Playwright, K6) and security scans  
 - Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)  
 
-### Technical Lead - *StickerApp AB, Lomma, Sweden*  
-*April 2021 – May 2022*  
+### Technical Lead - StickerApp AB, Lomma, Sweden
+
+*April 2021 - May 2022*  
+
 - Led a team of 5 engineers, promoting collaboration and innovation  
 - Spearheaded DevOps initiatives, CI/CD automation, and Dockerization projects  
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases  
@@ -54,41 +58,52 @@ DevOps and full-stack engineer with over 10 years of experience, specializing in
 - Managed AWS infrastructure with IAC tools, balancing cost and performance  
 - Optimized database structures with minimal service disruption  
 
-### Fullstack Web Developer - *StickerApp AB, Lomma, Sweden*  
-*October 2016 – April 2021*  
+### Fullstack Web Developer - StickerApp AB, Lomma, Sweden
+
+*October 2016 - April 2021*  
+
 - Created a service that reduced sticker production time by 15%, improving operational efficiency  
 - Developed APIs and microservices using Node.js and Java (Spring Boot)  
 - Managed infrastructure layers (Linux, Docker, Nginx, Apache, MySQL)  
 - Integrated BI tools like QlikSense to support data-driven decisions  
 - Improved admin system UX, streamlining internal workflows  
 
-### Consultant - *Cloudmap AB, Malmö, Sweden*  
-*January 2015 – October 2016*  
+### Consultant - Cloudmap AB, Malmö, Sweden
+
+*January 2015 - October 2016*
+
 - Designed data pipelines for Region Skåne, handling 10k+ medical and financial records daily  
 - Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
 - Supported mobile app development and system integrations  
 
-### Consultant - *Devv IT AB, Helsingborg, Sweden*  
-*2014*  
+### Consultant - Devv IT AB, Helsingborg, Sweden
+
+*2014*
+
 - Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
 - Developed backend solutions using C#/.NET  
 
-### Lab Assistant (MySQL Course) - *Malmö University, Malmö, Sweden*  
-*2013*  
+### Lab Assistant (MySQL Course) - Malmö University, Malmö, Sweden
+
+*2013*
+
 - Mentored 20+ students in mastering SQL queries for a relational databases course  
 
 ---
 
 ## Education
 
-### B.Sc. Computer Science, Game Development - *Malmö University*  
-*2011 – 2014*  
+### B.Sc. Computer Science, Game Development - Malmö University
+
+*2011 – 2014*
+
 - **Relevant Coursework**: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming  
 - **Notable Project**: Developed a physics-based game engine as part of thesis  <!-- Replace with actual project if applicable -->
 
 ---
 
 ## Technical Skills
+
 - **Cloud & DevOps**: Kubernetes, AWS, Docker, GitHub Actions, ArgoCD, Rancher, Grafana, Linux, Ansible
 - **Back-End**: JavaScript/TypeScript, Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind
@@ -101,13 +116,4 @@ DevOps and full-stack engineer with over 10 years of experience, specializing in
 ## Languages
 
 - Swedish (Native)  
-- English (Fluent)  
-
----
-
-### Notes for Astro Integration
-- **Navigation**: Add a sticky navbar or sidebar linking to sections (e.g., "Experience," "Skills") using Astro components.  
-- **Styling**: Use Tailwind for a responsive, modern design. Consider card layouts for work experience and tag-like visuals for skills.  
-- **Interactivity**: Implement collapsible sections for lengthy lists (e.g., job details) to maintain a clean, scannable layout.  
-- **SEO**: Include meta tags and semantic HTML for better searchability and accessibility.  
-- **Download Option**: Add a "Download PDF" button for convenience.  
+- English (Fluent)

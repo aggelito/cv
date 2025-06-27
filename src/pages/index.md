@@ -11,30 +11,28 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 # August Herrström
 
-## Contact Information
+---
 
-- Phone: +46 761705495  
-- Email: <augustherrstrom@gmail.com>  
-- [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
-- [GitHub](https://github.com/augustherrstrom)  <!-- Replace with actual GitHub link if applicable -->
+## Contact
+
+**Phone**: +46 761705495  
+Email: <augustherrstrom@gmail.com>  
+[LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
+[GitHub](https://github.com/augustherrstrom)  <!-- Replace with actual GitHub link if applicable -->
 
 ---
 
-## About Me
+## About me
 
-I'm a problem-solver who thrives on building scalable, reliable systems and mentoring teams to succeed. Outside of code, I’m an avid open-source contributor and sustainability advocate.
-
-## Professional Summary
-
-DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. Expert in automation, cloud infrastructure, and vendor-agnostic solutions. Passionate about open source and sustainable technology.
+I'm a DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. Expert in automation, cloud infrastructure, and vendor-agnostic solutions. Passionate about open source and sustainable technology.
 
 ---
 
-## Work Experience
+## Work experience
 
-### Lead DevOps Engineer - StickerApp AB, Lomma, Sweden
+### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
 
-May 2022 - Present
+#### May 2022 - Present
 
 - Migrated main database to a new cloud provider with <1 hour downtime, ensuring seamless business operations  
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
@@ -46,7 +44,7 @@ May 2022 - Present
 - Enhanced security and stability with automated tests (Playwright, K6) and security scans  
 - Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)  
 
-### Technical Lead - StickerApp AB, Lomma, Sweden
+### Technical Lead @ StickerApp AB, Lomma, Sweden
 
 *April 2021 - May 2022*  
 
@@ -55,10 +53,10 @@ May 2022 - Present
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases  
 - Increased team productivity by 20% through streamlined sprint planning and operational improvements  
 - Developed a scalable AWS service for customer file uploads, thumbnails, and outlines  
-- Managed AWS infrastructure with IAC tools, balancing cost and performance  
+- Managed AWS infrastructure with IaC tools, balancing cost and performance  
 - Optimized database structures with minimal service disruption  
 
-### Fullstack Web Developer - StickerApp AB, Lomma, Sweden
+### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
 
 *October 2016 - April 2021*  
 
@@ -68,7 +66,7 @@ May 2022 - Present
 - Integrated BI tools like QlikSense to support data-driven decisions  
 - Improved admin system UX, streamlining internal workflows  
 
-### Consultant - Cloudmap AB, Malmö, Sweden
+### Consultant @ Cloudmap AB, Malmö, Sweden
 
 *January 2015 - October 2016*
 
@@ -76,14 +74,14 @@ May 2022 - Present
 - Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
 - Supported mobile app development and system integrations  
 
-### Consultant - Devv IT AB, Helsingborg, Sweden
+### Consultant @ Devv IT AB, Helsingborg, Sweden
 
 *2014*
 
 - Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
 - Developed backend solutions using C#/.NET  
 
-### Lab Assistant (MySQL Course) - Malmö University, Malmö, Sweden
+### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 
 *2013*
 
@@ -93,7 +91,7 @@ May 2022 - Present
 
 ## Education
 
-### B.Sc. Computer Science, Game Development - Malmö University
+### B.Sc. Computer Science, Game Development @ Malmö University
 
 *2011 – 2014*
 

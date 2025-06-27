@@ -5,7 +5,3 @@
 @plugin "daisyui" {
   themes: light --default, dark;
 }
-
-html:not([data-theme]) {
-  visibility: hidden;
-}

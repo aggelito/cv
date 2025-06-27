@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{frontmatter.title}</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
     <meta name="description" content={frontmatter.description} />
     <meta name="keywords" content={frontmatter.keywords} />
     <meta name="author" content={frontmatter.author} />
@@ -17,6 +17,11 @@ const { frontmatter } = Astro.props;
     <meta property="og:description" content={frontmatter.og_description} />
     <!-- <meta property="og:image" content={frontmatter.og_image}> -->
 
+    <style>
+      html:not([data-theme]) {
+        visibility: hidden;
+      }
+    </style>
     <script>
       (function () {
         try {
@@ -48,7 +53,7 @@ const { frontmatter } = Astro.props;
         <!-- sun icon -->
         <svg
           id="sun-icon"
-          class="swap-on h-10 w-10 fill-current"
+          class="theme-icon swap-on h-10 w-10 fill-current transition-none"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
@@ -60,7 +65,7 @@ const { frontmatter } = Astro.props;
         <!-- moon icon -->
         <svg
           id="moon-icon"
-          class="swap-on h-10 w-10 fill-current"
+          class="theme-icon swap-on h-10 w-10 fill-current transition-none"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >

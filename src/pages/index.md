@@ -16,9 +16,9 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 ## Contact
 
 **Phone**: +46 761705495  
-Email: <augustherrstrom@gmail.com>  
+**Email**: <augustherrstrom@gmail.com>  
 [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
-[GitHub](https://github.com/augustherrstrom)  <!-- Replace with actual GitHub link if applicable -->
+[GitHub](https://github.com/aggelito)
 
 ---
 
@@ -46,7 +46,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ### Technical Lead @ StickerApp AB, Lomma, Sweden
 
-*April 2021 - May 2022*  
+#### April 2021 - May 2022
 
 - Led a team of 5 engineers, promoting collaboration and innovation  
 - Spearheaded DevOps initiatives, CI/CD automation, and Dockerization projects  
@@ -58,7 +58,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
 
-*October 2016 - April 2021*  
+#### October 2016 - April 2021
 
 - Created a service that reduced sticker production time by 15%, improving operational efficiency  
 - Developed APIs and microservices using Node.js and Java (Spring Boot)  
@@ -68,7 +68,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ### Consultant @ Cloudmap AB, Malmö, Sweden
 
-*January 2015 - October 2016*
+#### January 2015 - October 2016
 
 - Designed data pipelines for Region Skåne, handling 10k+ medical and financial records daily  
 - Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
@@ -76,14 +76,14 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ### Consultant @ Devv IT AB, Helsingborg, Sweden
 
-*2014*
+#### 2014
 
 - Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
 - Developed backend solutions using C#/.NET  
 
 ### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 
-*2013*
+#### 2013
 
 - Mentored 20+ students in mastering SQL queries for a relational databases course  
 
@@ -93,7 +93,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 ### B.Sc. Computer Science, Game Development @ Malmö University
 
-*2011 – 2014*
+#### 2011 - 2014
 
 - **Relevant Coursework**: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming  
 - **Notable Project**: Developed a physics-based game engine as part of thesis  <!-- Replace with actual project if applicable -->

@@ -46,14 +46,14 @@ const { frontmatter } = Astro.props;
   </head>
   <body>
     <div class="text-right p-4">
-      <label class="swap swap-rotate">
+      <label class="print:hidden swap swap-rotate">
         <!-- this hidden checkbox controls the state -->
         <input id="themeToggle" type="checkbox" aria-label="Toogle theme" />
 
         <!-- sun icon -->
         <svg
           id="sun-icon"
-          class="theme-icon swap-on h-10 w-10 fill-current transition-none"
+          class="theme-icon swap-on h-8 w-8 lg:h-10 lg:w-10 xl:w-12 xl:h-12 fill-current transition-none"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
@@ -65,7 +65,7 @@ const { frontmatter } = Astro.props;
         <!-- moon icon -->
         <svg
           id="moon-icon"
-          class="theme-icon swap-on h-10 w-10 fill-current transition-none"
+          class="theme-icon swap-on h-8 w-8 lg:h-10 lg:w-10 xl:w-12 xl:h-12 fill-current transition-none"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >

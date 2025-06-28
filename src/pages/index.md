@@ -11,8 +11,6 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 # August Herrström
 
----
-
 ## Contact
 
 **Phone**: +46 761705495  
@@ -21,13 +19,9 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
 [GitHub](https://github.com/aggelito)
 
----
-
 ## About me
 
 I'm a DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. Expert in automation, cloud infrastructure, and vendor-agnostic solutions. Passionate about open source and sustainable technology.
-
----
 
 ## Work experience
 
@@ -85,16 +79,12 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 
 - Mentored 20+ students in mastering SQL queries for a relational databases course  
 
----
-
 ## Education
 
 #### 2011 - 2014
 ### B.Sc. Computer Science, Game Development @ Malmö University
 
 - **Relevant Coursework**: Software Engineering, Game Physics, Data structures & Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
-
----
 
 ## Technical Skills
 
@@ -104,8 +94,6 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai
 - **Tools & Testing**: Git, Jira, Playwright, K6, Traefik
 - **Principles**: KISS, GitOps, Agile, Lean, DRY, Kanban
-
----
 
 ## Languages
 

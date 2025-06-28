@@ -17,6 +17,7 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 **Phone**: +46 761705495  
 **Email**: <augustherrstrom@gmail.com>  
+**Location**: Malmö, Sweden  
 [LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
 [GitHub](https://github.com/aggelito)
 
@@ -33,7 +34,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 #### May 2022 - Present
 ### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
 
-- Migrated main database to a new cloud provider with <1 hour downtime, ensuring seamless business operations  
+- Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
 - Automated remote development server setup, cutting onboarding time by 50%  
 - Built a high-performance Traefik middleware for authentication and authorization, enabling SSO across all services  
@@ -61,8 +62,10 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - Created a service that reduced sticker production time by 15%, improving operational efficiency  
 - Developed APIs and microservices using Node.js and Java (Spring Boot)  
 - Managed infrastructure layers (Linux, Docker, Nginx, Apache, MySQL)  
-- Integrated BI tools like QlikSense to support data-driven decisions  
+- Integrated BI tools like Qlik Sense to support data-driven decisions  
 - Improved admin system UX, streamlining internal workflows  
+- Integrated payment solutions, Stripe and Adyen
+- Integrated customer service tools to enhance user support
 
 #### January 2015 - October 2016
 ### Consultant @ Cloudmap AB, Malmö, Sweden
@@ -89,16 +92,15 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 #### 2011 - 2014
 ### B.Sc. Computer Science, Game Development @ Malmö University
 
-- **Relevant Coursework**: Software Engineering, Game Physics, Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming  
-- **Notable Project**: Developed a physics-based game engine as part of thesis  <!-- Replace with actual project if applicable -->
+- **Relevant Coursework**: Software Engineering, Game Physics, Data structures & Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
 
 ---
 
 ## Technical Skills
 
 - **Cloud & DevOps**: Kubernetes, AWS, Docker, GitHub Actions, ArgoCD, Rancher, Grafana, Linux, Ansible
-- **Back-End**: JavaScript/TypeScript, Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
-- **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind
+- **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
+- **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai
 - **Tools & Testing**: Git, Jira, Playwright, K6, Traefik
 - **Principles**: KISS, GitOps, Agile, Lean, DRY, Kanban

@@ -57,7 +57,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   generate-pdf-release:
-    name: Create PDF & create release
+    name: Create PDF & release
     needs: deploy
     uses: ./.github/workflows/generate-pdf.yml
     secrets: inherit

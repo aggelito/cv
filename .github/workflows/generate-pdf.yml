@@ -27,7 +27,7 @@ jobs:
           cache-dependency-path: ./puppeteer/package-lock.json
       - name: Setup Chrome
         run: |
-          npx @puppeteer/browsers install chrome@stable --install-deps
+          sudo npx @puppeteer/browsers install chrome@stable --install-deps
       # - name: Check Chrome version
       #   run: chrome --version
       - name: Install puppeteer

@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
   const page = await browser.newPage();
   await page.goto("https://cv.aghost.io", {
     waitUntil: "networkidle2",
@@ -9,7 +9,7 @@ import puppeteer from "puppeteer";
 
   await page.pdf({
     path: "August-Herrstrom-CV.pdf",
-    format: 'A4'
+    format: "A4",
   });
 
   await browser.close();

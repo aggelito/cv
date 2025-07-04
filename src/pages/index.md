@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/markdown.astro
+lang: en
 title: August Herrström | DevOps & Full-Stack Engineer
 description: Experienced DevOps and Full-Stack Engineer with 10+ years in scaling systems, automation, and cloud infrastructure.
 keywords: DevOps, Full-Stack, Kubernetes, AWS, Svelte, React, Sweden
@@ -21,35 +22,35 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 ## About me
 
-I'm a DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. Expert in automation, cloud infrastructure, and vendor-agnostic solutions. Passionate about open source and sustainable technology.
+DevOps and full-stack engineer with over 10 years of experience, specializing in scaling systems and leading high-performing teams. I specialize in cloud-native solutions and vendor-agnostic architectures. Passionate about open source and sustainable technology.
 
 ## Work experience
 
 ### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
 #### May 2022 - Present
 
+- Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)
+- Onboarded developers with GitHub Copilot and AI tools in VS Code and pull requests, improving productivity and promoting modern development practices
+- Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
+- Collaborated with management and HR to recruit and onboard developers and tech leads, strengthening the engineering team's capabilities
+- Introduced automated preview deploys from pull requests, accelerating feedback loops
+- Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
+- Automated remote development server setup, cutting onboarding time by around 50%
+- Established monitoring and alerting with Grafana and Prometheus, improving system reliability
+- Enhanced site reliability with automated tests (Playwright, K6) and security scans
 - Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
-- Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability  
-- Automated remote development server setup, cutting onboarding time by 50%  
-- Built a high-performance Traefik middleware for authentication and authorization, enabling SSO across all services  
-- Reduced code review time by 30% with GitHub Copilot automation  
-- Introduced automated preview deploys from pull requests, accelerating feedback loops  
-- Established monitoring and alerting with Grafana and Prometheus, improving system reliability  
-- Enhanced security and stability with automated tests (Playwright, K6) and security scans  
-- Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)  
-
 
 ### Technical Lead @ StickerApp AB, Lomma, Sweden
 #### April 2021 - May 2022
 
-
-- Led a team of 5 engineers, promoting collaboration and innovation  
-- Spearheaded DevOps initiatives, CI/CD automation, and Dockerization projects  
-- Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases  
-- Increased team productivity by 20% through streamlined sprint planning and operational improvements  
-- Developed a scalable AWS service for customer file uploads, thumbnails, and outlines  
+- Led a team of 5 engineers, promoting collaboration and innovation
+- Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
+- Spearheaded DevOps initiatives, CI/CD automation, Dockerization projects and cloud infrastructure
+- Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
+- Increased team productivity by 20% through streamlined sprint planning and operational improvements
+- Developed a scalable AWS service for customer file uploads, thumbnails, and outlines
 - Managed AWS infrastructure with IaC tools, balancing cost and performance  
-- Optimized database structures with minimal service disruption  
+- Optimized database structures with minimal service disruption
 
 ### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
 #### October 2016 - April 2021
@@ -62,6 +63,7 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 - Improved admin system UX, streamlining internal workflows  
 - Integrated payment solutions, Stripe and Adyen
 - Integrated customer service tools to enhance user support
+- Implemented tools for improving internal communication and collaboration
 
 ### Consultant @ Cloudmap AB, Malmö, Sweden
 #### January 2015 - October 2016
@@ -81,14 +83,12 @@ I'm a DevOps and full-stack engineer with over 10 years of experience, specializ
 ### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 #### 2013
 
-
 - Mentored 20+ students in mastering SQL queries for a relational databases course  
 
 ## Education
 
 ### B.Sc. Computer Science, Game Development @ Malmö University
 #### 2011 - 2014
-
 
 - **Relevant Coursework**: Software Engineering, Game Physics, Data structures & Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
 

@@ -28,7 +28,7 @@ jobs:
           npx @puppeteer/browsers install chrome@stable
       # - name: Check Chrome version
       #   run: chrome --version
-      # - name: Install puppeteer
-      #   run: npm install
+      - name: Install puppeteer
+        run: npm install
       - name: Run puppeteer script
         run: node index.js

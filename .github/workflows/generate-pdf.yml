@@ -31,7 +31,9 @@ jobs:
       - name: Install puppeteer
         run: npm install
       - name: Run puppeteer script
-        run: node index.js
+        run: |
+          npm start
+          ls -la
       - name: Get current date
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT

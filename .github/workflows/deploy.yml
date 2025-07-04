@@ -1,8 +1,8 @@
 name: Deploy
 
 on:
-  # push:
-  #   branches: ["main"]
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -55,3 +55,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  generate-pdf-release:
+    name: Create PDF & create release
+    needs: deploy
+    uses: ./.github/workflows/generate-pdf.yml
+    secrets: inherit

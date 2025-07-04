@@ -17,8 +17,8 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 **Phone**: +46 761705495  
 **Email**: <augustherrstrom@gmail.com>  
 **Location**: Malmö, Sweden  
-[LinkedIn](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/)  
-[GitHub](https://github.com/aggelito)
+<a href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
+<a href="https://github.com/aggelito" target="_blank">GitHub</a>  
 
 ## About me
 
@@ -90,7 +90,7 @@ DevOps and full-stack engineer with over 10 years of experience, specializing in
 ### B.Sc. Computer Science, Game Development @ Malmö University
 #### 2011 - 2014
 
-- **Relevant Coursework**: Software Engineering, Game Physics, Data structures & Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
+- **Relevant Coursework**: Software Engineering, Project Management, Game Physics, Data structures & Algorithms, Machine Learning, 2D & 3D Graphics, Object-Oriented Programming
 
 ## Technical Skills
 

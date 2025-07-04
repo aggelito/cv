@@ -9,6 +9,9 @@ concurrency:
   group: "pdf"
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   generate-pdf:
     name: Generate PDF
@@ -33,10 +36,11 @@ jobs:
       - name: Run puppeteer script
         run: |
           npm start
-          ls -la
       - name: Get current date
         id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          ls -la
       - name: Create GitHub Release
         run: |
           gh release create "pdf-${{ github.run_number }}" ./August-Herrstrom-CV.pdf \

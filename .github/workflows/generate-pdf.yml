@@ -44,6 +44,7 @@ jobs:
         run: |
           gh release create "pdf-${{ github.run_number }}" ./August-Herrstrom-CV.pdf \
             --title "pdf-${{ steps.date.outputs.date }}" \
+            --notes "" \
             --latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

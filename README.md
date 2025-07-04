@@ -1,47 +1,95 @@
-# Astro Starter Kit: Minimal
+# August Herrström – CV Website
+
+This project is a personal CV website for [August Herrström](https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/), built with [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [daisyUI](https://daisyui.com/). It features a clean, responsive design, dark/light theme toggle, and automated PDF export using Puppeteer.
+
+## ✨ Features
+
+- **Markdown-powered CV**: Easily edit your CV in Markdown (`src/pages/index.md`)
+- **Modern stack**: Astro, Tailwind CSS, daisyUI, and Vite
+- **Dark/Light mode**: Toggle theme with smooth transitions
+- **Responsive design**: Looks great on all devices and prints cleanly
+- **Automated PDF export**: Generates a PDF version of the CV using Puppeteer
+- **GitHub Actions**: Deploys to GitHub Pages and creates PDF releases automatically
+
+## 📦 Project Structure
+
+```
+/
+├── src/
+│   ├── assets/         # CSS & JS (theme toggle, Tailwind config)
+│   ├── components/     # Reusable Astro components (footer, etc.)
+│   ├── layouts/        # Markdown layout with theme toggle
+│   └── pages/          # Main CV content in Markdown
+├── public/             # Static assets (favicon, etc.)
+├── puppeteer/          # Puppeteer script for PDF generation
+├── .github/workflows/  # GitHub Actions for deploy & PDF
+├── astro.config.mjs    # Astro config
+├── package.json        # Project dependencies & scripts
+└── ...
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/)
+
+### Install dependencies
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+### Start development server
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Visit [http://localhost:4321](http://localhost:4321) to view the site.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Build for production
 
-Any static assets, like images, can be placed in the `public/` directory.
+```sh
+npm run build
+```
 
-## 🧞 Commands
+### Preview production build
 
-All commands are run from the root of the project, from a terminal:
+```sh
+npm run preview
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🖨️ Generate PDF
 
-## 👀 Want to learn more?
+To generate a PDF version of the CV:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```sh
+cd puppeteer
+npm install
+npm start
+```
+
+This will create `August-Herrstrom-CV.pdf` in the `puppeteer/` directory.
+
+## ⚙️ Deployment
+
+- **GitHub Actions**: On push to `main`, the site is built and deployed to GitHub Pages.
+- **PDF Release**: After deployment, a PDF is generated and attached to a new GitHub Release.
+
+See [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) and [`.github/workflows/generate-pdf.yml`](.github/workflows/generate-pdf.yml) for details.
+
+## 📝 Customization
+
+- **Edit your CV**: Update [`src/pages/index.md`](src/pages/index.md)
+- **Change styles**: Edit [`src/assets/app.css`](src/assets/app.css)
+- **Modify layout**: Update [`src/layouts/markdown.astro`](src/layouts/markdown.astro)
+
+## 📄 License
+
+[MIT](LICENSE) © August Herrström
+
+---
+
+> Built with ❤️ using [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [daisyUI](https://daisyui.com/)

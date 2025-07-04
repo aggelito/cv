@@ -1,0 +1,18 @@
+---
+// Footer.astro
+const year = new Date().getFullYear();
+---
+
+<footer class="print:hidden text-center text-sm py-4">
+  <p>
+    © {year} August Herrström -
+    <a
+      href="https://github.com/aggelito/cv"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-1 hover:underline"
+    >
+      Source code on GitHub
+    </a>
+  </p>
+</footer>

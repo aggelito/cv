@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+  themes: light --default, dark;
+}
+
+h3 {
+  @apply text-lg lg:text-xl xl:text-2xl;
+}

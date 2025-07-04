@@ -9,7 +9,7 @@ concurrency:
 
 jobs:
   generate-pdf:
-    name: Build
+    name: Generate PDF
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -24,14 +24,11 @@ jobs:
           cache: npm
           cache-dependency-path: ./puppeteer/package-lock.json
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
-          install-dependencies: true
+        run: |
+          npx puppeteer browsers install chrome@stable --install-deps
       - name: Check Chrome version
         run: chrome --version
-        
-      - name: Install puppeteer
-        run: npm install
+      # - name: Install puppeteer
+      #   run: npm install
       - name: Run puppeteer script
-        run: npm start
+        run: node index.js

@@ -28,9 +28,15 @@ jobs:
       - name: Setup Chrome
         run: |
           sudo npx @puppeteer/browsers install chrome@stable --install-deps
-      # - name: Check Chrome version
-      #   run: chrome --version
       - name: Install puppeteer
         run: npm install
       - name: Run puppeteer script
         run: node index.js
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Create GitHub Release
+        run: |
+          gh release create "pdf-${{ github.run_number }}" ./August-Herrstrom-CV.pdf \
+            --title "pdf-${{ steps.date.outputs.date }}" \
+            --latest

@@ -71,14 +71,13 @@ npm install
 npm start
 ```
 
-This will create `August-Herrstrom-CV.pdf` in the `puppeteer/` directory.
+This will create `August-Herrström-CV.pdf` in the `dist/` directory.
 
 ## ⚙️ Deployment
 
 - **GitHub Actions**: On push to `main`, the site is built and deployed to GitHub Pages.
-- **PDF Release**: After deployment, a PDF is generated and attached to a new GitHub Release.
 
-See [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) and [`.github/workflows/generate-pdf.yml`](.github/workflows/generate-pdf.yml) for details.
+See [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) for details.
 
 ## 📝 Customization
 

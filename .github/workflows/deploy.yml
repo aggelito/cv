@@ -14,9 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  BUILD_PATH: "."
-
 jobs:
   build:
     name: Build
@@ -29,20 +26,48 @@ jobs:
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
+          cache-dependency-path: ./package-lock.json
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: npm install
-        working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: npm run build
-        working-directory: ${{ env.BUILD_PATH }}
+      - name: Start Astro preview server
+        run: nohup npm run preview > preview.log 2>&1 &
+      - name: Wait for preview server
+        run: |
+          for i in {1..30}; do
+            if curl -sSf http://localhost:4321 > /dev/null; then
+              echo "Preview server is up!"
+              exit 0
+            fi
+            echo "Waiting for preview server..."
+            sleep 2
+          done
+          echo "Preview server did not start in time" >&2
+          exit 1
+      - name: Setup chrome for puppeteer
+          sudo npx @puppeteer/browsers install chrome@stable --install-deps
+      - name: Generate PDF
+        working-directory: puppeteer
+        run: | 
+          npm install
+          npm start
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.BUILD_PATH }}/dist
+          path: .//dist
+      - name: Create GitHub Release
+        run: |
+          date=$(date +'%Y-%m-%d')"
+          gh release create "pdf-${{ github.run_number }}" ./dist/August-Herrström-CV.pdf \
+            --title "pdf-${{ date }}" \
+            --notes "" \
+            --latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     environment:
@@ -56,8 +81,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  generate-pdf-release:
-    name: Create PDF & release
-    needs: deploy
-    uses: ./.github/workflows/generate-pdf.yml
-    secrets: inherit
+  # generate-pdf-release:
+  #   name: Create PDF & release
+  #   needs: deploy
+  #   uses: ./.github/workflows/generate-pdf.yml
+  #   secrets: inherit

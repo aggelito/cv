@@ -56,8 +56,6 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 ### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
 #### October 2016 - April 2021
 
-
-- Created a service that reduced sticker production time by 15%, improving operational efficiency  
 - Developed APIs and microservices using Node.js and Java (Spring Boot)  
 - Managed infrastructure layers (Linux, Docker, Nginx, Apache, MySQL)  
 - Integrated BI tools like Qlik Sense to support data-driven decisions  
@@ -84,7 +82,7 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 ### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 #### 2013
 
-- Mentored 20+ students in mastering SQL queries for a relational databases course  
+- Mentored 20+ students in mastering SQL queries for a relational database course  
 
 ## Education
 

@@ -47,7 +47,17 @@ const { frontmatter } = Astro.props;
   </head>
   <body>
     <div class="text-right p-4">
-      <a class="print:hidden" href="https://github.com/aggelito/cv/releases/latest/download/August-Herrstrom-CV.pdf">
+      <!-- <a
+        aria-label="Download PDF"
+        class="print:hidden"
+        href="https://github.com/aggelito/cv/releases/latest/download/August-Herrstrom-CV.pdf"
+      > -->
+      <a
+        aria-label="Download PDF"
+        class="print:hidden"
+        href="August-Herrström-CV.pdf"
+        target="_blank"
+      >
         <svg
           id="pdf-icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -62,9 +72,10 @@ const { frontmatter } = Astro.props;
         </svg>
       </a>
 
-      <label class="print:hidden swap swap-rotate">
+      <label for="themeToggle" class="print:hidden swap swap-rotate">
         <!-- this hidden checkbox controls the state -->
-        <input id="themeToggle" type="checkbox" aria-label="Toogle theme" />
+        <span class="sr-only">Toggle theme</span>
+        <input id="themeToggle" type="checkbox" aria-label="Toggle theme" />
 
         <!-- sun icon -->
         <svg

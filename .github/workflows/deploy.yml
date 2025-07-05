@@ -63,7 +63,7 @@ jobs:
         run: |
           date=$(date +'%Y-%m-%d')"
           gh release create "pdf-${{ github.run_number }}" ./dist/August-Herrström-CV.pdf \
-            --title "pdf-${{ date }}" \
+            --title "pdf-$date" \
             --notes "" \
             --latest
         env:

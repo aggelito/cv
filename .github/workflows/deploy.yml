@@ -61,7 +61,7 @@ jobs:
           path: .//dist
       - name: Create GitHub Release
         run: |
-          date=$(date +'%Y-%m-%d')"
+          date=$(date +'%Y-%m-%d')
           gh release create "pdf-${{ github.run_number }}" ./dist/August-Herrström-CV.pdf \
             --title "pdf-$date" \
             --notes "" \

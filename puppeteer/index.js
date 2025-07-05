@@ -9,7 +9,7 @@ import puppeteer from "puppeteer";
   });
 
   await page.pdf({
-    path: "../dist/August-Herrstrom-CV.pdf",
+    path: "../dist/August-Herrström-CV.pdf",
     format: "A4",
   });
 

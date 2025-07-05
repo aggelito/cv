@@ -58,7 +58,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .//dist
+          path: ./dist
       - name: Create GitHub Release
         run: |
           date=$(date +'%Y-%m-%d')
@@ -80,9 +80,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # generate-pdf-release:
-  #   name: Create PDF & release
-  #   needs: deploy
-  #   uses: ./.github/workflows/generate-pdf.yml
-  #   secrets: inherit

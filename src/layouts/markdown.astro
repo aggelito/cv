@@ -56,7 +56,7 @@ const { frontmatter } = Astro.props;
     <div class="text-right p-4">
       <a
         aria-label="Download PDF"
-        data-umami-event="Download PDF"
+        data-umami-event="download-pdf"
         class="print:hidden"
         href="August-Herrström-CV.pdf"
         target="_blank"
@@ -79,7 +79,7 @@ const { frontmatter } = Astro.props;
         <!-- this hidden checkbox controls the state -->
         <span class="sr-only">Toggle theme</span>
         <input
-          data-umami-event="Toggle Theme"
+          data-umami-event="toggle-theme"
           id="themeToggle"
           type="checkbox"
           aria-label="Toggle theme"

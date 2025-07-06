@@ -17,8 +17,8 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 **Phone**: +46 761705495  
 **Email**: <augustherrstrom@gmail.com>  
 **Location**: Malmö, Sweden  
-<a data-umami-event="LinkedIn Link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
-<a data-umami-event="Github Link" href="https://github.com/aggelito" target="_blank">GitHub</a>  
+<a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
+<a data-umami-event="github-link" href="https://github.com/aggelito" target="_blank">GitHub</a>  
 
 ## About me
 

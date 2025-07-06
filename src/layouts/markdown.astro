@@ -23,6 +23,13 @@ const { frontmatter } = Astro.props;
         visibility: hidden;
       }
     </style>
+    <script
+      defer
+      src="https://umami.aghost.io/script.js"
+      data-website-id="596f4323-82d2-478e-8538-6ef09f5e8988"
+      data-domains="august.herrström.se"
+      >
+    </script>
     <script>
       (function () {
         try {
@@ -47,13 +54,9 @@ const { frontmatter } = Astro.props;
   </head>
   <body>
     <div class="text-right p-4">
-      <!-- <a
-        aria-label="Download PDF"
-        class="print:hidden"
-        href="https://github.com/aggelito/cv/releases/latest/download/August-Herrstrom-CV.pdf"
-      > -->
       <a
         aria-label="Download PDF"
+        data-umami-event="Download PDF"
         class="print:hidden"
         href="August-Herrström-CV.pdf"
         target="_blank"
@@ -75,7 +78,12 @@ const { frontmatter } = Astro.props;
       <label for="themeToggle" class="print:hidden swap swap-rotate">
         <!-- this hidden checkbox controls the state -->
         <span class="sr-only">Toggle theme</span>
-        <input id="themeToggle" type="checkbox" aria-label="Toggle theme" />
+        <input
+          data-umami-event="Toggle Theme"
+          id="themeToggle"
+          type="checkbox"
+          aria-label="Toggle theme"
+        />
 
         <!-- sun icon -->
         <svg

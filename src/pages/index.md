@@ -17,8 +17,8 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 **Phone**: +46 761705495  
 **Email**: <augustherrstrom@gmail.com>  
 **Location**: Malmö, Sweden  
-<a href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
-<a href="https://github.com/aggelito" target="_blank">GitHub</a>  
+<a data-umami-event="LinkedIn Link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
+<a data-umami-event="Github Link" href="https://github.com/aggelito" target="_blank">GitHub</a>  
 
 ## About me
 
@@ -93,12 +93,12 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 
 ## Technical Skills
 
-- **Cloud & DevOps**: Kubernetes, AWS, Docker, GitHub Actions, ArgoCD, Rancher, Grafana, Linux, Ansible
+- **Cloud & DevOps**: Linux, Docker, Kubernetes, ArgoCD, Rancher, AWS, GitHub Actions, Grafana, Ansible
 - **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai
-- **Tools & Testing**: Git, Jira, Playwright, K6, Traefik
-- **Principles**: KISS, GitOps, Agile, Lean, DRY, Kanban
+- **Tools & Testing**: Git, Jira, Playwright, K6, Traefik, Nuclei
+- **Principles**: KISS, GitOps, Agile, Lean, DRY
 
 ## Languages
 

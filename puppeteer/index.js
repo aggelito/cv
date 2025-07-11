@@ -11,6 +11,10 @@ import puppeteer from "puppeteer";
   await page.pdf({
     path: "../dist/August-Herrström-CV.pdf",
     format: "A4",
+    margins: {
+      top: "2cm",
+      bottom: "2cm",
+    },
   });
 
   await browser.close();

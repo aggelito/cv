@@ -12,10 +12,10 @@ import puppeteer from "puppeteer";
     path: "../dist/August-Herrström-CV.pdf",
     format: "A4",
     margins: {
-      top: "2cm",
-      bottom: "2cm",
-      left: "0cm",
-      right: "0cm",
+      top: "0.8in",
+      bottom: "0.8in",
+      left: "0in",
+      right: "0in",
     },
   });
 

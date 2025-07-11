@@ -14,6 +14,8 @@ import puppeteer from "puppeteer";
     margins: {
       top: "2cm",
       bottom: "2cm",
+      left: "0cm",
+      right: "0cm",
     },
   });
 

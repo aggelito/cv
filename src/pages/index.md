@@ -48,8 +48,7 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 - Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
 - Spearheaded DevOps initiatives, CI/CD automation, Dockerization projects and cloud infrastructure
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
-- Increased team productivity by 20% through streamlined sprint planning and operational improvements
-- Developed a scalable AWS service for customer file uploads, thumbnails, and outlines
+- Developed a scalable AWS service for customer file uploads and processing
 - Managed AWS infrastructure with IaC tools, balancing cost and performance  
 - Optimized database structures with minimal service disruption
 

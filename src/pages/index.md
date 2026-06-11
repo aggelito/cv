@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a senior Platform and DevOps Engineer w
 
 ## About me
 
-Senior platform and DevOps engineer with 10+ years of experience building reliable cloud-native systems, developer platforms, and delivery workflows. Lately focused on practical LLMOps: operating self-hosted inference and proxy layers, and connecting agentic coding tools to Git in a controlled, least-privilege way. I help teams move faster without making production someone else's problem: Kubernetes, GitOps, CI/CD, observability, automation, and pragmatic technical leadership.
+Senior platform and DevOps engineer with 10+ years of experience building reliable cloud-native systems, developer platforms, and delivery workflows. Lately focused on practical LLMOps: operating self-hosted inference and proxy layers, and connecting agentic coding tools to Git in a controlled, least-privilege way. I act as an enabler for the IT department, helping teams remove friction, ship safely, and turn good ideas into working systems. I help teams move faster without making production someone else's problem: Kubernetes, GitOps, CI/CD, observability, automation, and pragmatic technical leadership.
 
 ## Work experience
 
@@ -96,7 +96,7 @@ Senior platform and DevOps engineer with 10+ years of experience building reliab
 
 - **Cloud & Platform**: Linux, Docker, Kubernetes, ArgoCD, Kustomize, Rancher, AWS, GitHub Actions, Ansible
 - **AI & LLMOps**: LiteLLM, vLLM, self-hosted inference, agentic coding workflows, scoped Git automation
-- **Reliability & Security**: Grafana, Prometheus, Playwright, K6, Traefik, Nuclei, SSO, automated security scanning
+- **Reliability & Security**: Grafana, Prometheus, Playwright, K6, Traefik, Nuclei, Kali Linux, SSO, automated security scanning
 - **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai

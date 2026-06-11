@@ -1,12 +1,12 @@
 ---
 layout: ../layouts/markdown.astro
 lang: en
-title: August Herrström | DevOps & Full-Stack Engineer
-description: Experienced DevOps and Full-Stack Engineer with 10+ years in scaling systems, automation, and cloud infrastructure.
-keywords: DevOps, Full-Stack, Kubernetes, AWS, Svelte, React, Sweden
+title: August Herrström | Platform & DevOps Engineer
+description: Senior Platform and DevOps Engineer with 10+ years building cloud-native infrastructure, CI/CD, automation, and reliable software delivery.
+keywords: Platform Engineer, DevOps, SRE, Kubernetes, GitOps, AWS, CI/CD, Malmö, Remote
 author: August Herrström
-og_title: August Herrström - DevOps Engineer
-og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with expertise in Kubernetes, AWS, and modern web development.
+og_title: August Herrström - Platform & DevOps Engineer
+og_description: CV of August Herrström, a senior Platform and DevOps Engineer with expertise in Kubernetes, GitOps, AWS, automation, and reliable delivery.
 # og_image: /path/to/profile-image.jpg
 ---
 
@@ -22,34 +22,36 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 ## About me
 
-DevOps and full-stack engineer with over 10 years of experience helping companies scale systems, automate infrastructure and lead high-performing teams. I specialize in cloud-native solutions and vendor-agnostic architectures. Passionate about open source and sustainable technology.
+Senior platform and DevOps engineer with 10+ years of experience building reliable cloud-native systems, developer platforms, and delivery workflows. Lately focused on practical LLMOps: operating self-hosted inference and proxy layers, and connecting agentic coding tools to Git in a controlled, least-privilege way. I help teams move faster without making production someone else's problem: Kubernetes, GitOps, CI/CD, observability, automation, and pragmatic technical leadership.
 
 ## Work experience
 
 ### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
 #### May 2022 - Present
 
-- Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)
-- Onboarded developers with GitHub Copilot and AI tools in VS Code and pull requests, improving productivity and promoting modern development practices
-- Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
-- Collaborated with management and HR to recruit and onboard developers and tech leads, strengthening the engineering team's capabilities
-- Introduced automated preview deploys from pull requests, accelerating feedback loops
-- Deployed and managed self-hosted machine learning platforms to support AI-driven product features
-- Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
+- Built and operated Kubernetes-based delivery platforms using GitOps (ArgoCD, Kustomize, Rancher), improving deployment speed and release safety
+- Operated LiteLLM and vLLM services on Kubernetes, covering model serving, routing, access control, and operational reliability for internal AI workflows
+- Connected agentic coding agents to Git in a safer setup with scoped credentials, restricted repository access, review gates, and clear audit trails
+- Introduced automated preview environments for pull requests, shortening feedback loops for developers and stakeholders
+- Modernized observability with Grafana and Prometheus, giving teams clearer signals for reliability, capacity, and incidents
+- Dockerized and migrated a legacy monolith to a new hosting provider, improving scalability and operational reliability
+- Migrated the main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
 - Automated remote development server setup, cutting onboarding time by 50%
-- Established monitoring and alerting with Grafana and Prometheus, improving system reliability
-- Enhanced site reliability with automated tests (Playwright, K6) and security scans
-- Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
+- Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across internally developed services
+- Deployed and managed self-hosted machine learning platforms to support AI-driven product features
+- Improved engineering quality through Playwright tests, K6 performance tests, and automated security scanning
+- Onboarded developers with GitHub Copilot and AI-assisted workflows in VS Code and pull requests
+- Partnered with management and HR to recruit and onboard developers and technical leads
 
 ### Technical Lead @ StickerApp AB, Lomma, Sweden
 #### April 2021 - May 2022
 
-- Led a team of 5 engineers, promoting collaboration and innovation
-- Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
-- Spearheaded DevOps initiatives, CI/CD automation, Dockerization projects and cloud infrastructure
-- Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
-- Developed a scalable AWS service for customer file uploads and processing
-- Managed AWS infrastructure with IaC tools, balancing cost and performance  
+- Led a team of 5 engineers across delivery, operations, architecture, and technical planning
+- Moved the department from Gitflow to GitHub Flow, reducing release complexity and making pull-request review the normal path to production
+- Drove DevOps initiatives across CI/CD automation, Dockerization, and cloud infrastructure
+- Modernized deployment workflows with GitHub Actions, increasing release frequency from weekly to multiple daily releases
+- Designed and delivered a scalable AWS service for customer file uploads and processing
+- Managed AWS infrastructure with infrastructure-as-code practices, balancing cost, performance, and reliability
 - Optimized database structures with minimal service disruption
 
 ### Fullstack Web Developer @ StickerApp AB, Lomma, Sweden
@@ -92,12 +94,13 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 
 ## Technical Skills
 
-- **Cloud & DevOps**: Linux, Docker, Kubernetes, ArgoCD, Rancher, AWS, GitHub Actions, Grafana, Ansible
+- **Cloud & Platform**: Linux, Docker, Kubernetes, ArgoCD, Kustomize, Rancher, AWS, GitHub Actions, Ansible
+- **AI & LLMOps**: LiteLLM, vLLM, self-hosted inference, agentic coding workflows, scoped Git automation
+- **Reliability & Security**: Grafana, Prometheus, Playwright, K6, Traefik, Nuclei, SSO, automated security scanning
 - **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, QlikSense, Mage.ai
-- **Tools & Testing**: Git, Jira, Playwright, K6, Traefik, Nuclei
-- **Principles**: KISS, GitOps, Agile, Lean, DRY
+- **Leadership & Delivery**: GitOps, CI/CD, technical leadership, hiring, onboarding, Agile, Lean
 
 ## Languages
 

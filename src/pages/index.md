@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a senior Platform and DevOps Engineer w
 
 ## About me
 
-Senior platform and DevOps engineer with 10+ years of experience building reliable cloud-native systems, developer platforms, and delivery workflows. Lately focused on practical LLMOps: operating self-hosted inference and proxy layers, and connecting agentic coding tools to Git in a controlled, least-privilege way. I act as an enabler for the IT department, helping teams remove friction, ship safely, and turn good ideas into working systems. I help teams move faster without making production someone else's problem: Kubernetes, GitOps, CI/CD, observability, automation, and pragmatic technical leadership.
+Senior platform and DevOps engineer with 10+ years of experience building reliable cloud-native systems, developer platforms, and delivery workflows. I specialize in cloud-native solutions and vendor-agnostic architectures, with a strong bias toward open source and sustainable technology. Lately focused on practical LLMOps: operating self-hosted inference and proxy layers, and connecting agentic coding tools to Git in a controlled, least-privilege way. I act as an enabler for the IT department, helping teams remove friction, ship safely, and turn good ideas into working systems. I help teams move faster without making production someone else's problem: Kubernetes, GitOps, CI/CD, observability, automation, and pragmatic technical leadership.
 
 ## Work experience
 

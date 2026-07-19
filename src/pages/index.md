@@ -31,6 +31,7 @@ DevOps and full-stack engineer with over 10 years of experience helping companie
 
 - Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)
 - Onboarded developers with GitHub Copilot and AI tools in VS Code and pull requests, improving productivity and promoting modern development practices
+- Built and operated self-hosted AI agent platforms, integrating LLM providers, tools and messaging services with secure secrets management, least-privilege access, monitoring and maintainable deployment workflows
 - Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
 - Collaborated with management and HR to recruit and onboard developers and tech leads, strengthening the engineering team's capabilities
 - Introduced automated preview deploys from pull requests, accelerating feedback loops

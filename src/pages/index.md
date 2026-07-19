@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer with e
 
 ## About me
 
-DevOps and full-stack engineer with over 10 years of experience helping companies scale systems, automate infrastructure and lead high-performing teams. I specialize in cloud-native solutions and vendor-agnostic architectures. Passionate about open source and sustainable technology.
+DevOps and full-stack engineer with over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and sustainable operations.
 
 ## Work experience
 

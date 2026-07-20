@@ -43,8 +43,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 #### Technical Lead · April 2021 - May 2022
 
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
-- Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
-- Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
+- Led the department’s transition from Gitflow to GitHub Flow and modernized CI/CD with GitHub Actions, increasing release frequency from weekly to multiple releases per day
 - Built and operated a scalable AWS platform for file uploads and asynchronous processing via REST APIs, using CloudFront, S3, ECS, DynamoDB, WAF and Route 53, with infrastructure managed through AWS CDK
 - Improved database scalability and maintainability through schema normalization, indexing and automated database migrations in deployment pipelines
 

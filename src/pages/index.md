@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 
 ## Profile
 
-Lead DevOps and platform engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and reliable operations.
+Lead DevOps and Platform Engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Focused on cloud-native, vendor-agnostic platforms and secure, maintainable AI automation, grounded in open source, pragmatic engineering and reliable operations.
 
 ## Work experience
 

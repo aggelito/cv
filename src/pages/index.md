@@ -30,15 +30,15 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 
 #### Lead DevOps Engineer · May 2022 - Present
 
-- Introduced Kubernetes-based GitOps workflows with Argo CD, Kustomize and Rancher, improving deployment speed, safety and repeatability
+- Introduced Kubernetes-based GitOps with Argo CD, Kustomize and Rancher, establishing declarative and version-controlled deployments
 - Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
 - Migrated the primary database to a new cloud provider with less than one hour of downtime
-- Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
-- Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
+- Built a high-performance custom Traefik middleware for authentication and authorization, enabling SSO and role-based access control (RBAC) across all internally developed services
+- Containerized a legacy monolith with Docker and migrated it to a new hosting provider
 - Automated remote development server setup, cutting onboarding time by 50%
-- Introduced automated preview deploys from pull requests, accelerating feedback loops
-- Improved site reliability with Grafana and Prometheus monitoring, automated Playwright and k6 tests, and security scanning
-- Played an active role in recruiting and onboarding developers and technical leads in partnership with management and HR
+- Introduced automated preview deployments for pull requests, with automated tests validating each environment before review and merge
+- Established observability with Grafana and Prometheus, configured service-failure alerts, participated in on-call incident response, and implemented automated security scanning
+- Partnered with management and HR to recruit and onboard developers and technical leads
 
 #### Technical Lead · April 2021 - May 2022
 

@@ -26,8 +26,9 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 ## Work experience
 
-### Lead DevOps Engineer @ StickerApp AB, Lomma, Sweden
-#### May 2022 - Present
+### StickerApp AB, Lomma, Sweden
+
+#### Lead DevOps Engineer · May 2022 - Present
 
 - Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)
 - Built and operated self-hosted AI agent platforms, integrating LLM providers, tools and messaging services with secure secrets management, least-privilege access, monitoring and maintainable deployment workflows
@@ -39,8 +40,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 - Improved site reliability with Grafana and Prometheus monitoring, automated Playwright and K6 tests, and security scanning
 - Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
 
-### Technical Lead @ StickerApp AB, Lomma, Sweden
-#### April 2021 - May 2022
+#### Technical Lead · April 2021 - May 2022
 
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
 - Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
@@ -48,8 +48,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 - Built and operated a scalable AWS service for customer file uploads and processing, managing the supporting infrastructure as code
 - Optimized database structures with minimal service disruption
 
-### Full-Stack Web Developer @ StickerApp AB, Lomma, Sweden
-#### October 2016 - April 2021
+#### Full-Stack Web Developer · October 2016 - April 2021
 
 - Developed APIs and microservices using Node.js and Java (Spring Boot)
 - Operated application infrastructure across Linux, Docker, Nginx, Apache and MySQL

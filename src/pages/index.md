@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 
 ## About me
 
-Lead DevOps and platform engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and sustainable operations.
+Lead DevOps and platform engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and reliable operations.
 
 ## Work experience
 
@@ -30,15 +30,15 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 #### Lead DevOps Engineer · May 2022 - Present
 
-- Optimized deployment speed and safety using Kubernetes with GitOps (ArgoCD, Kustomize, Rancher)
-- Built and operated self-hosted AI agent platforms, integrating LLM providers, tools and messaging services with secure secrets management, least-privilege access, monitoring and maintainable deployment workflows
+- Introduced Kubernetes-based GitOps workflows with ArgoCD, Kustomize and Rancher, improving deployment speed, safety and repeatability
+- Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
+- Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
 - Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
-- Played an active role in recruiting and onboarding developers and technical leads in partnership with management and HR
-- Introduced automated preview deploys from pull requests, accelerating feedback loops
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
 - Automated remote development server setup, cutting onboarding time by 50%
+- Introduced automated preview deploys from pull requests, accelerating feedback loops
 - Improved site reliability with Grafana and Prometheus monitoring, automated Playwright and K6 tests, and security scanning
-- Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
+- Played an active role in recruiting and onboarding developers and technical leads in partnership with management and HR
 
 #### Technical Lead · April 2021 - May 2022
 

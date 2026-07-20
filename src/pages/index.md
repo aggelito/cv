@@ -1,12 +1,12 @@
 ---
 layout: ../layouts/markdown.astro
 lang: en
-title: August Herrström | DevOps & Full-Stack Engineer
-description: DevOps and Full-Stack Engineer with 10+ years in cloud infrastructure, automation, AI agents, and scalable systems.
+title: August Herrström | Lead DevOps & Platform Engineer
+description: Lead DevOps and Platform Engineer with a full-stack background and 10+ years in cloud infrastructure, automation, AI agents, and scalable systems.
 keywords: DevOps, Full-Stack, AI Agents, LLM Integrations, Kubernetes, GitOps, AWS, Sweden
 author: August Herrström
-og_title: August Herrström - DevOps Engineer
-og_description: CV of August Herrström, a DevOps and Full-Stack Engineer specializing in cloud platforms, automation, and AI agents.
+og_title: August Herrström - Lead DevOps & Platform Engineer
+og_description: CV of August Herrström, a Lead DevOps and Platform Engineer specializing in cloud platforms, automation, and AI agents.
 # og_image: /path/to/profile-image.jpg
 ---
 
@@ -22,7 +22,7 @@ og_description: CV of August Herrström, a DevOps and Full-Stack Engineer specia
 
 ## About me
 
-DevOps and full-stack engineer with over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and sustainable operations.
+Lead DevOps and platform engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and sustainable operations.
 
 ## Work experience
 
@@ -44,37 +44,30 @@ DevOps and full-stack engineer with over 10 years of experience building scalabl
 
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
 - Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
-- Spearheaded DevOps initiatives, CI/CD automation, Dockerization projects and cloud infrastructure
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
-- Developed a scalable AWS service for customer file uploads and processing
-- Managed AWS infrastructure with IaC tools, balancing cost and performance  
+- Built and operated a scalable AWS service for customer file uploads and processing, managing the supporting infrastructure as code
 - Optimized database structures with minimal service disruption
 
 ### Full-Stack Web Developer @ StickerApp AB, Lomma, Sweden
 #### October 2016 - April 2021
 
-- Developed APIs and microservices using Node.js and Java (Spring Boot)  
-- Managed infrastructure layers (Linux, Docker, Nginx, Apache, MySQL)  
-- Integrated BI tools such as Qlik Sense to support data-driven decisions
-- Improved admin system UX, streamlining internal workflows  
-- Integrated payment solutions, Stripe and Adyen
-- Integrated customer service tools to enhance user support
-- Implemented tools for improving internal communication and collaboration
+- Developed APIs and microservices using Node.js and Java (Spring Boot)
+- Operated application infrastructure across Linux, Docker, Nginx, Apache and MySQL
+- Integrated Stripe and Adyen payment solutions into customer-facing services
+- Delivered BI and internal workflow integrations using Qlik Sense and supporting tools
 
 ### Consultant @ Cloudmap AB, Malmö, Sweden
 #### January 2015 - October 2016
 
 
-- Designed data pipelines for Region Skåne, handling 10k+ medical and financial records daily  
-- Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments  
-- Supported mobile app development and system integrations  
+- Designed high-volume data pipelines for Region Skåne, processing medical and financial records daily
+- Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments
 
 ### Consultant @ Devv IT AB, Helsingborg, Sweden
 #### 2014
 
 
-- Integrated Klarna payments for an e-commerce platform, enabling 1k+ daily transactions  
-- Developed backend solutions using C#/.NET  
+- Developed C#/.NET backend solutions and integrated Klarna payments for an e-commerce platform
 
 ### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
 #### 2013
@@ -94,7 +87,7 @@ DevOps and full-stack engineer with over 10 years of experience building scalabl
 - **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, Qlik Sense, Mage.ai
 - **AI & Automation**: AI agents, LLM integrations, tool orchestration, self-hosted inference, Hermes Agent, GitHub Copilot
 - **Tools & Testing**: Git, Jira, Playwright, K6, Traefik, Nuclei
-- **Principles**: KISS, GitOps, Agile, Lean, DRY
+- **Engineering Practices**: GitOps, Infrastructure as Code, CI/CD, observability, automated testing, least-privilege security
 
 ## Languages
 

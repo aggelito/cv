@@ -32,7 +32,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 - Introduced Kubernetes-based GitOps workflows with Argo CD, Kustomize and Rancher, improving deployment speed, safety and repeatability
 - Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
-- Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
+- Migrated the primary database to a new cloud provider with less than one hour of downtime
 - Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
 - Automated remote development server setup, cutting onboarding time by 50%

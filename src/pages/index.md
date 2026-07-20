@@ -45,7 +45,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
 - Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
-- Built and operated a scalable AWS service for customer file uploads and processing, managing the supporting infrastructure as code
+- Built and operated a scalable AWS platform for file uploads and asynchronous processing via REST APIs, using CloudFront, S3, ECS, DynamoDB, WAF and Route 53, with infrastructure managed through AWS CDK
 - Improved database scalability and maintainability through schema normalization, indexing and automated database migrations in deployment pipelines
 
 #### Full-Stack Web Developer · October 2016 - April 2021
@@ -80,7 +80,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 ## Technical Skills
 
-- **Cloud & Platform**: Linux, Docker, Kubernetes, AWS, Rancher, Traefik
+- **Cloud & Platform**: Linux, Docker, Kubernetes, AWS, AWS CDK, Rancher, Traefik
 - **Delivery & Observability**: GitHub Actions, Argo CD, Kustomize, Ansible, Grafana, Prometheus
 - **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro

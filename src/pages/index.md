@@ -20,7 +20,7 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 <a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
 <a data-umami-event="github-link" href="https://github.com/aggelito" target="_blank">GitHub</a>  
 
-## About me
+## Profile
 
 Lead DevOps and platform engineer with a full-stack background and over 10 years of experience building scalable systems, automating infrastructure and leading engineering teams. Specialized in cloud-native, vendor-agnostic platforms and secure, maintainable AI automation. Strong advocate for open source, pragmatic engineering and reliable operations.
 
@@ -30,14 +30,14 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 #### Lead DevOps Engineer · May 2022 - Present
 
-- Introduced Kubernetes-based GitOps workflows with ArgoCD, Kustomize and Rancher, improving deployment speed, safety and repeatability
+- Introduced Kubernetes-based GitOps workflows with Argo CD, Kustomize and Rancher, improving deployment speed, safety and repeatability
 - Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
 - Migrated main database to a new cloud provider with less than one hour of downtime, avoiding significant revenue loss during the transition
 - Built a high-performance Traefik middleware for custom authentication and authorization, enabling SSO across all internally developed services
 - Dockerized and migrated legacy monolith to a new hosting provider, enhancing scalability and reliability
 - Automated remote development server setup, cutting onboarding time by 50%
 - Introduced automated preview deploys from pull requests, accelerating feedback loops
-- Improved site reliability with Grafana and Prometheus monitoring, automated Playwright and K6 tests, and security scanning
+- Improved site reliability with Grafana and Prometheus monitoring, automated Playwright and k6 tests, and security scanning
 - Played an active role in recruiting and onboarding developers and technical leads in partnership with management and HR
 
 #### Technical Lead · April 2021 - May 2022
@@ -46,7 +46,7 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 - Transitioned department from Gitflow to GitHub Flow, reducing release complexity and fostering a collaborative review process through pull requests
 - Modernized deployment workflow with GitHub Actions, boosting frequency from weekly to multiple daily releases
 - Built and operated a scalable AWS service for customer file uploads and processing, managing the supporting infrastructure as code
-- Optimized database structures with minimal service disruption
+- Improved database scalability and maintainability through schema normalization, indexing and automated database migrations in deployment pipelines
 
 #### Full-Stack Web Developer · October 2016 - April 2021
 
@@ -80,12 +80,13 @@ Lead DevOps and platform engineer with a full-stack background and over 10 years
 
 ## Technical Skills
 
-- **Cloud & DevOps**: Linux, Docker, Kubernetes, ArgoCD, Kustomize, Rancher, AWS, GitHub Actions, Grafana, Prometheus, Ansible
+- **Cloud & Platform**: Linux, Docker, Kubernetes, AWS, Rancher, Traefik
+- **Delivery & Observability**: GitHub Actions, Argo CD, Kustomize, Ansible, Grafana, Prometheus
 - **Back-End**: Node.js, PHP (CodeIgniter), Java (Spring Boot), C# (.NET), Go
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
-- **Data & BI**: MySQL, MSSQL, PostgreSQL, BigQuery, DynamoDB, Power BI, Qlik Sense, Mage.ai
+- **Data & BI**: MySQL, Microsoft SQL Server, PostgreSQL, BigQuery, DynamoDB, Power BI, Qlik Sense, Mage.ai
 - **AI & Automation**: AI agents, LLM integrations, tool orchestration, self-hosted inference, Hermes Agent, GitHub Copilot
-- **Tools & Testing**: Git, Jira, Playwright, K6, Traefik, Nuclei
+- **Tools & Testing**: Git, Jira, Playwright, k6, Nuclei
 - **Engineering Practices**: GitOps, Infrastructure as Code, CI/CD, observability, automated testing, least-privilege security
 
 ## Languages

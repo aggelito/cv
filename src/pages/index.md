@@ -16,7 +16,6 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 
 ## Contact
 
-**Phone**: +46 76 170 54 95<br>
 **Email**: <augustherrstrom@gmail.com><br>
 **Location**: Malmö, Sweden<br>
 <a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a><br>
@@ -46,7 +45,7 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
 - Led the department’s transition from Gitflow to GitHub Flow and modernized CI/CD with GitHub Actions, increasing release frequency from weekly to multiple releases per day
-- Built and operated a scalable AWS platform for file uploads and asynchronous processing via REST APIs, using CloudFront, S3, ECS, DynamoDB, WAF and Route 53, with infrastructure managed through AWS CDK
+- Built and operated a scalable AWS platform for file uploads and asynchronous processing via REST APIs, with infrastructure managed through AWS CDK
 - Improved database scalability and maintainability through schema normalization, indexing and automated database migrations in deployment pipelines
 
 #### Full-Stack Web Developer · October 2016–April 2021

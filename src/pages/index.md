@@ -12,13 +12,15 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 
 # August Herrström
 
+**Lead DevOps & Platform Engineer**
+
 ## Contact
 
-**Phone**: +46 761705495  
-**Email**: <augustherrstrom@gmail.com>  
-**Location**: Malmö, Sweden  
-<a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>  
-<a data-umami-event="github-link" href="https://github.com/aggelito" target="_blank">GitHub</a>  
+**Phone**: +46 76 170 54 95<br>
+**Email**: <augustherrstrom@gmail.com><br>
+**Location**: Malmö, Sweden<br>
+<a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a><br>
+<a data-umami-event="github-link" href="https://github.com/aggelito" target="_blank">GitHub</a>
 
 ## Profile
 
@@ -28,7 +30,7 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 
 ### StickerApp AB, Lomma, Sweden
 
-#### Lead DevOps Engineer · May 2022 - Present
+#### Lead DevOps Engineer · May 2022–Present
 
 - Introduced Kubernetes-based GitOps with Argo CD, Kustomize and Rancher, establishing declarative and version-controlled deployments
 - Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
@@ -40,42 +42,44 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 - Established observability with Grafana and Prometheus, configured service-failure alerts, participated in on-call incident response, and implemented automated security scanning
 - Partnered with management and HR to recruit and onboard developers and technical leads
 
-#### Technical Lead · April 2021 - May 2022
+#### Technical Lead · April 2021–May 2022
 
 - Led a team of 5 engineers, providing technical direction, delivery support and professional development
 - Led the department’s transition from Gitflow to GitHub Flow and modernized CI/CD with GitHub Actions, increasing release frequency from weekly to multiple releases per day
 - Built and operated a scalable AWS platform for file uploads and asynchronous processing via REST APIs, using CloudFront, S3, ECS, DynamoDB, WAF and Route 53, with infrastructure managed through AWS CDK
 - Improved database scalability and maintainability through schema normalization, indexing and automated database migrations in deployment pipelines
 
-#### Full-Stack Web Developer · October 2016 - April 2021
+#### Full-Stack Web Developer · October 2016–April 2021
 
 - Developed APIs and microservices using Node.js and Java (Spring Boot)
 - Operated application infrastructure across Linux, Docker, Nginx, Apache and MySQL
 - Integrated Stripe and Adyen payment solutions into customer-facing services
-- Delivered BI and internal workflow integrations using Qlik Sense and supporting tools
+- Maintained data integrations for Qlik Sense, delivered reporting datasets and developed dashboards for internal use
 
-### Consultant @ Cloudmap AB, Malmö, Sweden
-#### January 2015 - October 2016
+### Cloudmap AB, Malmö, Sweden
 
+#### Consultant · January 2015–October 2016
 
 - Designed high-volume data pipelines for Region Skåne, processing medical and financial records daily
 - Built REST APIs in C# (.NET) and maintained Microsoft SQL Server environments
 
-### Consultant @ Devv IT AB, Helsingborg, Sweden
-#### 2014
+### Devv IT AB, Helsingborg, Sweden
 
+#### Consultant · 2014
 
 - Developed C#/.NET backend solutions and integrated Klarna payments for an e-commerce platform
 
-### Lab Assistant (MySQL Course) @ Malmö University, Malmö, Sweden
-#### 2013
+### Malmö University, Malmö, Sweden
 
-- Mentored 20+ students in mastering SQL queries for a relational database course  
+#### Lab Assistant, MySQL Course · 2013
+
+- Mentored 20+ students in SQL and relational database concepts
 
 ## Education
 
-### B.Sc. Computer Science, Game Development @ Malmö University
-#### 2011 - 2014
+### Malmö University
+
+#### B.Sc. in Computer Science, Game Development · 2011–2014
 
 ## Technical Skills
 
@@ -85,7 +89,7 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 - **Front-End**: Svelte, React, jQuery, Bootstrap, Tailwind, Vite, Astro
 - **Data & BI**: MySQL, Microsoft SQL Server, PostgreSQL, BigQuery, DynamoDB, Power BI, Qlik Sense, Mage.ai
 - **AI & Automation**: AI agents, LLM integrations, tool orchestration, self-hosted inference, Hermes Agent, GitHub Copilot
-- **Tools & Testing**: Git, Jira, Playwright, k6, Nuclei
+- **Testing & Security**: Playwright, Vitest, k6, Bruno, SonarQube, Nuclei
 - **Engineering Practices**: GitOps, Infrastructure as Code, CI/CD, observability, automated testing, least-privilege security
 
 ## Languages

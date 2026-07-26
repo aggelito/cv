@@ -34,7 +34,7 @@ Lead DevOps and Platform Engineer with a full-stack background and over 10 years
 - Introduced Kubernetes-based GitOps with Argo CD, Kustomize and Rancher, establishing declarative and version-controlled deployments
 - Built and operated self-hosted AI agent platforms integrating LLM providers, tools and messaging services, with secure secrets management, least-privilege access and monitoring
 - Migrated the primary database to a new cloud provider with less than one hour of downtime
-- Built a high-performance custom Traefik middleware for authentication and authorization, enabling SSO and role-based access control (RBAC) across all internally developed services
+- Built a high-performance custom Traefik middleware for authentication and authorization, enabling SSO and role-based access control (RBAC) across internally developed services, as well as API key access control for public endpoints and service-to-service communication
 - Containerized a legacy monolith with Docker and migrated it to a new hosting provider
 - Automated remote development server setup, cutting onboarding time by 50%
 - Introduced automated preview deployments for pull requests, with automated tests validating each environment before review and merge

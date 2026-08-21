@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/markdown.astro
 lang: en
 title: August Herrström | Lead DevOps & Platform Engineer
 description: Lead DevOps and Platform Engineer with a full-stack background and 10+ years in cloud infrastructure, automation, AI agents, and scalable systems.

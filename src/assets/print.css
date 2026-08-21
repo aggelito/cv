@@ -1,0 +1,285 @@
+@page {
+  size: A4;
+  margin: 13mm 15mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #ececec;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: #111;
+}
+
+.print-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(calc(100% - 2rem), 210mm);
+  margin: 1rem auto;
+  font-size: 0.875rem;
+}
+
+.print-toolbar a,
+.print-toolbar button {
+  border: 1px solid #222;
+  border-radius: 0;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.print-toolbar a {
+  padding: 0.7rem 0.85rem;
+}
+
+.print-toolbar button {
+  padding: 0.75rem 0.9rem;
+  cursor: pointer;
+}
+
+.print-toolbar a:hover,
+.print-toolbar button:hover {
+  background: #111;
+  color: #fff;
+}
+
+.print-toolbar a:focus-visible,
+.print-toolbar button:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 3px;
+}
+
+.print-cv {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  column-gap: 2rem;
+  width: min(calc(100% - 2rem), 210mm);
+  min-height: 297mm;
+  margin: 0 auto 2rem;
+  padding: 15mm;
+  background: #fff;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 0.12);
+  font-size: 10pt;
+  line-height: 1.38;
+}
+
+.print-cv > * {
+  grid-column: 1 / -1;
+}
+
+.print-cv > h1 {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  margin: 0;
+  font-size: 27pt;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.print-cv > h1 + p {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0.3rem 0 0;
+  font-size: 11.5pt;
+}
+
+.print-cv > h1 + p strong {
+  font-weight: 600;
+}
+
+.print-cv > #contact {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  margin: 0;
+  border: 0;
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.print-cv > #contact + p {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0.25rem 0 0;
+  font-size: 8.5pt;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.print-cv > #profile {
+  margin-top: 1.4rem;
+}
+
+.print-cv h2 {
+  margin: 1.4rem 0 0.65rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #111;
+  font-size: 11.5pt;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.print-cv h3 {
+  margin: 1rem 0 0.15rem;
+  font-size: 10.5pt;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.print-cv h4 {
+  margin: 0.7rem 0 0.25rem;
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.print-cv h3 + h4 {
+  margin-top: 0.25rem;
+}
+
+.print-cv p {
+  margin: 0 0 0.55rem;
+}
+
+.print-cv ul {
+  margin: 0.25rem 0 0.75rem;
+  padding-left: 1.15rem;
+}
+
+.print-cv li {
+  margin: 0.16rem 0;
+  padding-left: 0.1rem;
+}
+
+.print-cv strong {
+  font-weight: 700;
+}
+
+.print-cv a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
+}
+
+.print-cv #technical-skills + ul {
+  columns: 2;
+  column-gap: 1.8rem;
+}
+
+.print-cv #technical-skills + ul li {
+  break-inside: avoid;
+  margin-bottom: 0.25rem;
+}
+
+.print-cv #languages + ul {
+  display: flex;
+  gap: 2rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    background: #fff;
+  }
+
+  .print-toolbar,
+  .print-cv {
+    width: 100%;
+  }
+
+  .print-toolbar {
+    padding: 0 1rem;
+  }
+
+  .print-cv {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    margin: 0;
+    padding: 1.25rem;
+    box-shadow: none;
+  }
+
+  .print-cv > h1,
+  .print-cv > h1 + p,
+  .print-cv > #contact,
+  .print-cv > #contact + p {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: left;
+  }
+
+  .print-cv > #contact {
+    margin-top: 1.25rem;
+  }
+
+  .print-cv #technical-skills + ul {
+    columns: 1;
+  }
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  html {
+    font-size: 10pt;
+  }
+
+  body {
+    line-height: 1.38;
+  }
+
+  [data-screen-only] {
+    display: none !important;
+  }
+
+  .print-cv {
+    width: 100%;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .print-cv h2,
+  .print-cv h3,
+  .print-cv h4 {
+    break-after: avoid-page;
+  }
+
+  .print-cv h3 + h4 + ul,
+  .print-cv h2 + ul {
+    break-inside: avoid-page;
+  }
+
+  .print-cv li {
+    break-inside: avoid;
+  }
+
+  .print-cv a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}

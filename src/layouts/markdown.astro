@@ -54,6 +54,13 @@ const { frontmatter } = Astro.props;
   </head>
   <body>
     <div class="text-right p-4">
+      <a
+        class="print:hidden btn btn-sm btn-ghost mr-2"
+        href="/print"
+        data-umami-event="print-cv-link"
+      >
+        Print CV
+      </a>
       <label for="themeToggle" class="print:hidden swap swap-rotate">
         <!-- this hidden checkbox controls the state -->
         <span class="sr-only">Toggle theme</span>

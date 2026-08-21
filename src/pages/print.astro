@@ -1,0 +1,30 @@
+---
+import "../assets/print.css";
+import { Content, frontmatter } from "../content/cv.md";
+---
+
+<html lang={frontmatter.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>August Herrström | Printable CV</title>
+    <meta name="description" content={frontmatter.description} />
+  </head>
+  <body>
+    <nav class="print-toolbar" aria-label="Print controls" data-screen-only>
+      <a href="/">Back to CV</a>
+      <button id="printButton" type="button">Print / Save as PDF</button>
+    </nav>
+
+    <main class="print-cv">
+      <Content />
+    </main>
+
+    <script>
+      document.getElementById("printButton")?.addEventListener("click", () => {
+        window.print();
+      });
+    </script>
+  </body>
+</html>

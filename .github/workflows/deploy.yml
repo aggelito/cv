@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -34,40 +34,10 @@ jobs:
         run: npm install
       - name: Build with Astro
         run: npm run build
-      - name: Start Astro preview server
-        run: nohup npm run preview > preview.log 2>&1 &
-      - name: Wait for preview server
-        run: |
-          for i in {1..30}; do
-            if curl -sSf http://localhost:4321 > /dev/null; then
-              echo "Preview server is up!"
-              exit 0
-            fi
-            echo "Waiting for preview server..."
-            sleep 2
-          done
-          echo "Preview server did not start in time" >&2
-          exit 1
-      - name: Setup chrome for puppeteer
-        run: sudo npx @puppeteer/browsers install chrome@stable --install-deps
-      - name: Generate PDF
-        working-directory: puppeteer
-        run: | 
-          npm install
-          npm start
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-      - name: Create GitHub Release
-        run: |
-          date=$(date +'%Y-%m-%d')
-          gh release create "pdf-${{ github.run_number }}" ./dist/August-Herrström-CV.pdf \
-            --title "pdf-$date" \
-            --notes "" \
-            --latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     environment:

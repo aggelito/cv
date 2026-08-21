@@ -8,8 +8,7 @@ This project is a personal CV website for [August Herrström](https://www.linked
 - **Modern stack**: Astro, Tailwind CSS, daisyUI, and Vite
 - **Dark/Light mode**: Toggle theme with smooth transitions
 - **Responsive design**: Looks great on all devices and prints cleanly
-- **Automated PDF export**: Generates a PDF version of the CV using Puppeteer
-- **GitHub Actions**: Deploys to GitHub Pages and creates PDF releases automatically
+- **GitHub Actions**: Deploys to GitHub Pages automatically
 
 ## 📦 Project Structure
 
@@ -21,8 +20,7 @@ This project is a personal CV website for [August Herrström](https://www.linked
 │   ├── layouts/        # Markdown layout with theme toggle
 │   └── pages/          # Main CV content in Markdown
 ├── public/             # Static assets (favicon, etc.)
-├── puppeteer/          # Puppeteer script for PDF generation
-├── .github/workflows/  # GitHub Actions for deploy & PDF
+├── .github/workflows/  # GitHub Actions for deployment
 ├── astro.config.mjs    # Astro config
 ├── package.json        # Project dependencies & scripts
 └── ...
@@ -60,18 +58,6 @@ npm run build
 ```sh
 npm run preview
 ```
-
-## 🖨️ Generate PDF
-
-To generate a PDF version of the CV:
-
-```sh
-cd puppeteer
-npm install
-npm start
-```
-
-This will create `August-Herrström-CV.pdf` in the `dist/` directory.
 
 ## ⚙️ Deployment
 

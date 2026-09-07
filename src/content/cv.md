@@ -17,8 +17,7 @@ og_description: CV of August Herrström, a Lead DevOps and Platform Engineer spe
 
 **Email**: <augustherrstrom@gmail.com><br>
 **Location**: Malmö, Sweden<br>
-<a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a><br>
-<a data-umami-event="github-link" href="https://github.com/aggelito" target="_blank">GitHub</a>
+<a data-umami-event="linkedin-link" href="https://www.linkedin.com/in/august-herrstr%C3%B6m-3a04547a/" target="_blank">LinkedIn</a>
 
 ## Profile
 
